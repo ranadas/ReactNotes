@@ -3,5 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Rana Das",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
 }
