@@ -1,3 +1,4 @@
+'use strict';
 const path = require('path');
 
 module.exports = {
@@ -13,8 +14,8 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
-            { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
+            { test: /\.js$/, loader: ['babel-loader', 'eslint-loader'], exclude: /node_modules/ },
+            { test: /\.jsx$/, loader: 'react-hot-loader!babel-loader', exclude: /node_modules/ }
         ]
     }
-}
+};
