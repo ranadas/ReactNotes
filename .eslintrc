@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {"jsx": true}
+  },
+  "rules": {
+    "max-len": [1, 120, 2, {"ignoreComments": true}],
+    "prop-types": [0],
+    "react/prop-types": 1,
+    "semi": [2, "always"],
+    "jsx-quotes": [2, "prefer-double"],
+    "no-unused-vars":[1],
+    "no-undef":[1]
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"]
+}
