@@ -1,9 +1,10 @@
+/* eslint react/prop-types: 0 */
 'user strict';
 import React, { Component } from 'react';
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
 
-import * as Home from './component/home';
-import * as Address from './component/address';
+// import * as Home from './component/home';
+// import * as Address from './component/address';
 
 const AppNowDeprecated = () => <h1>Hello World!</h1>;
 
